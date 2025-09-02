@@ -127,7 +127,7 @@ const experiences = [
     company_name: "Musitech",
     icon: Musitech,
     iconBg: "#4A90E2",
-    date: "June 2024 - Present",
+    date: "June 2024 - July 2025",
     points: [
       "Developed a scalable academic website, improving overall performance and user experience.",
       "Revamped the existing legacy website by introducing modern UI/UX practices and responsive design.",
@@ -136,7 +136,7 @@ const experiences = [
     ],
   },
   {
-    title: "Core Member",
+    title: "President & Secretary of Linux Club",
     company_name: "Linux Club Community",
     icon: linux,
     iconBg: "#000000",
