@@ -42,7 +42,9 @@ import nssImage from "./nss_image.png";
 import QuickConnect1 from "./Quickconnect.png";
 import blogWebsite from "./blogwebsite.png";
 import currencyCon from "./Currency.png";
-
+import bijliride from "./bijliride.png";
+import ai_resume_builder from "./ai_resume_builder.png";
+import ledger from "./ledger.png";
 export {
   currencyCon,
   blogWebsite,
@@ -84,4 +86,7 @@ export {
   Musitech,
   linux,
   hacktober,
+  bijliride,
+  ai_resume_builder,
+  ledger
 };

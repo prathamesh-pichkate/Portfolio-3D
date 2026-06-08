@@ -21,6 +21,10 @@ import {
   threejs,
   backend,
   fullstack,
+  blogWebsite,
+  currencyCon,
+  bijliride,
+  ai_resume_builder
 } from "../assets";
 
 export const navLinks = [
@@ -123,6 +127,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Development Engineer Intern",
+    company_name: "Bijliride",
+    icon: bijliride,
+    iconBg: "#383E56",
+    date: "Feb. 2026 - May 2026",
+    points: [
+      "Integrated third-party APIs into the backend system to enable new platform capabilities and streamline data flow between services.",
+      "Worked on designing the UI for the new features",
+      "Leveraged AI tools (GitHub Copilot, Claude) to accelerate development workflows, optimize code quality, and improve overall delivery speed across tasks.",
+    ],
+  },
+  {
     title: "Full Stack Web Intern",
     company_name: "Musitech",
     icon: Musitech,
@@ -165,12 +181,33 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Resume Builder",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built an AI-powered resume platform using MERN Stack and OpenAI API that generates ATS-optimized summaries, skills, and experience descriptions, reducing manual effort and improving resume quality. Implemented JWT authentication, Docker containerization, and CI pipelines with AWS deployment.",
     tags: [
       {
         name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ai_resume_builder,
+    source_code_link: "https://resume-builder-orpin-tau.vercel.app",
+  },
+  {
+    name: "Ledger-Based Banking API",
+    description:
+      "Engineered a ledger-based transaction engine implementing ACID-compliant database sessions to ensure atomic consistency. Mitigated duplicate financial operations by designing a robust idempotency validation layer. Optimized database performance and security with compound indexing.",
+    tags: [
+      {
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
@@ -178,54 +215,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "jwt",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/prathamesh-pichkate/Ledger-Based-Banking-API",
   },
 ];
 

@@ -2,7 +2,7 @@ import React from "react";
 import { SectionWrapper } from "../hoc";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
-import { blogWebsite, QuickConnect1, nssImage, currencyCon } from "../assets";
+import { blogWebsite, QuickConnect1, nssImage, currencyCon, ai_resume_builder, ledger } from "../assets";
 
 const projects = [
   {
@@ -28,10 +28,23 @@ const projects = [
   },
   {
     id: 4,
-    title: " Currency Converter",
+    title: "Currency Converter",
     github: import.meta.env.VITE_CC_GITHUB_REPO,
     live: import.meta.env.VITE_CC_LIVE_PROJECT,
     image: currencyCon,
+  },
+  {
+    id: 5,
+    title: "AI Resume Builder",
+    github: import.meta.env.VITE_AI_RESUME_GITHUB_REPO,
+    live: import.meta.env.VITE_AI_RESUME_LIVE_PROJECT,
+    image: ai_resume_builder,
+  },
+  {
+    id: 6,
+    title: "Ledger-Based Banking API",
+    github: import.meta.env.VITE_LEDGE_GITHUB_REPO,
+    image: ledger,
   },
 ];
 
